@@ -7,6 +7,7 @@ class Human {
     //メンバー変数
     private $name;
 
+    //コンストラクタ
     public function __construct($name) {
         //インスタンス生成時に与えられた引数を自身のメンバー変数にセット
         $this->name = $name;
@@ -16,7 +17,7 @@ class Human {
         echo (self::$counter."個目のインスタンスが生成されました。\n");
     }
 
-    //ゲッター
+    //privateなメンバー変数を外部から取得する為のゲッター
     public function getName() {
         return $this->name;
     }

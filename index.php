@@ -6,7 +6,7 @@
 	<BODY>
 	<?php
 		$name = 'バープー';
-		echo "<strong>ナマステ、${name}。</strong>";
+		echo "<strong>ナマステ、${name}。</strong>\n";
 	?>
 	<hr>
 	<img src="image/Bengal-Curry.jpg">
