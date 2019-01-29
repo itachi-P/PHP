@@ -1,13 +1,16 @@
 <HTML>
-	<HEAD>
-		<TITLE>PHPホーム</TITLE>
-	</HEAD>
-
-	<BODY>
-	<?php
-		$name = 'バープー';
-		echo "<strong>ナマステ、${name}。</strong>\n";
-	?>
+<HEAD>
+	<TITLE>PHPホーム</TITLE>
+</HEAD>
+<BODY>
+	<div>
+		<strong>
+			<?php
+				$name = 'バープー';
+				echo "ナマステ、${name}。\n";
+			?>
+		</strong>
+	</div>
 	<hr>
 	<img src="image/Bengal-Curry.jpg">
 
