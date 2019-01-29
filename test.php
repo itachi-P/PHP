@@ -3,7 +3,7 @@
 $firstName = ['ガウタマ', "マハトマ", 'アルボムッレ'];
 $lastName = ["シッダールタ", "ガンディー", 'スマサナーラ'];
 //空の配列宣言 「$fullNamesは(添字(0,1,2...)配列または連想配列の入る変数ですよ」の意味
-$fullNames = [];
+$fullNames = array();   //$fullNames = []; でも同じ
 
 for ($i = 0; $i < count($firstName); $i++) {
     $fullNames[$i] = fullName($firstName[$i], $lastName[$i]);
